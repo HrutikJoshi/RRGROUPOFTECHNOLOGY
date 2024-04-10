@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+font-family: 'peppins',sans-serif;
+}
+body{
+    background: url('https://getwallpapers.com/wallpaper/full/5/3/7/1439272-top-building-wallpapers-1920x1200-for-android-40.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+ margin-bottom: 40px;
+
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 95%;
+    padding: 20px 0%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100px;
+    margin-left: 30px;
+    
+}
+.logo{
+    font-size: 30px;
+   color: rgb(24, 47, 56);
+    text-decoration: none;
+    font-weight: 600px;
+    height: 40px;
+}
+.logo:hover{
+    color: #f7f7f7;
+    transition-duration: 0.9s;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+text-decoration: none;
+font-weight: 500px;
+margin-left: 50px;
+transition: .3s;
+font-weight: bold;
+cursor: pointer;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #1078b4;
+}
+.home{
+    height: 30px;
+    width: 290px;
+   margin-inline-start: 850px;
+   margin-top: 1px;
+   border-radius: 1%;
+   border-color: #d4d4d4;
+   align-content: center;
+   border-radius: 10px;
+    padding: 0 7%;
+    margin-right: 50px;
+    padding-left: 200px;
+    padding-bottom: 10px;
+ 
+
+}
+.home-content{
+   
+    max-width: 700px;
+    padding: 0 88px;
+    margin-top: 0.5px;
+
+   
+}
+.home-content{
+    font-size: 15px;
+    font-weight: 700px;
+
+}
+.home-content h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: rgb(17, 71, 122);
+    cursor: pointer;
+    
+   
+}
+
+.home-content p{
+    font-size: 18px;
+    margin: 10px 0 30px;
+    color: rgb(35, 46, 49);
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+.home-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+    
+}
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+      width:150px ;
+      height: 100%;
+      background:#ffffff ;
+      border:2px solid #00abf0  ;
+      border-radius:8px ;
+      font-size: 19px;
+      color: #081b29;
+      text-decoration: none;
+      font-weight: 600;
+      letter-spacing: 1px;
+      z-index: 1;
+      overflow: hidden;
+      transition: .5s;
+      cursor: pointer;
+}
+.btn-box a:hover{
+    color: #f06400;
+}
+
+.btn-box a::before{
+    content:"" ;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 0%;
+    height: 100%;
+    background-color: #081b29;
+    z-index: -1;
+transition: .5s;
+
+}
+.btn-box a:hover::before{
+    width: 100%;
+}
+button{
+    color: #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 90px;
+    height: 25px;
+   
+}
+button:hover{
+    color: #000000;
+    background-color: #8d8d8d;
+ 
+}
+input{
+    width: 190px;
+    height: 25PX;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    margin-right: 200px;
+    color: #003347;
+}
+h2 {
+    text-align: center;
+    color: #243136;
+   
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+   color: #003347;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    
+
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+
+}
+
+h3{
+    text-align: center;
+    color: #ffeded;
+    background-color: #000000;
+}
+
+.box {
+  
+    width: 300px;
+    height: 250px;
+    background-color: #2599e6;
+    border: 2px solid #181818;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding and border are included in width/height */
+}
+.box p{
+    color: #ffffff;
+}
+img{
+    border-radius: 30px;
+    margin-inline-start: 90px;
+}
+
+.home-sci {
+    position:absolute ;
+    top: 290px;
+    width:300px ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 480px;
+    gap: 10px;
+ margin-inline-start: 40px;
+ margin-bottom: 900px;
+
+}
+.home-sci a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 60px;
+    background: transparent;
+    border: 2px solid #091822;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    
+}
+.home-sci a:hover{
+   color: #f3b407;
+   background-color: #142731;
+}
+.home-sci a::before{
+       content: "";
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 0%;
+       height: 100%;
+       background-color: #003347;
+       z-index: -1;
+       transition: .5s;
+    
+}
+footer{
+    margin-top: 110px;
+    text-align: center;
+    margin-right: 100px;
+cursor: pointer;
+    
+}
+h5{
+    margin-left: 30px;
+    font-size: large;
+    color: #003347;
+    font-weight: 200;
+    font-weight: bold;
+    cursor: pointer;
+}
+h2:hover{
+    color: #f01111;
+    transition-duration: 0.9s;
+}
